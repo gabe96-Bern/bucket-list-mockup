@@ -1,0 +1,10 @@
+# Markenpalette der Relationalen Freizeitplattform.
+# Hinweis: Streamlit-Theme unterstuetzt nur "sans serif"/"serif"/"monospace".
+# Arial wird ueber die Standard-Sans-Serif-Familie angenaehert.
+
+[theme]
+primaryColor = "#C0613F"             # Terracotta
+backgroundColor = "#FBF7EF"          # heller Sand
+secondaryBackgroundColor = "#EADBC0" # Sand-Beige
+textColor = "#37414A"                # Anthrazit
+font = "sans serif"
