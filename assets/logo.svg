@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <clipPath id="badge"><circle cx="128" cy="128" r="120"/></clipPath>
+  </defs>
+  <!-- Badge -->
+  <circle cx="128" cy="128" r="120" fill="#FFFFFF" stroke="#C0613F" stroke-width="8"/>
+  <g clip-path="url(#badge)">
+    <!-- Tail: big curl -->
+    <path d="M150 205
+             C 60 215, 48 110, 96 70
+             C 122 48, 158 60, 160 96
+             C 134 84, 110 96, 110 124
+             C 110 162, 132 188, 150 205 Z"
+          fill="#C0613F"/>
+    <!-- Body -->
+    <ellipse cx="150" cy="158" rx="44" ry="56" fill="#C0613F"/>
+    <!-- Belly -->
+    <ellipse cx="162" cy="166" rx="24" ry="38" fill="#F3D9CB"/>
+    <!-- Head -->
+    <circle cx="158" cy="96" r="38" fill="#C0613F"/>
+    <!-- Ear -->
+    <path d="M150 60 L168 30 L182 62 Z" fill="#C0613F"/>
+    <!-- Eye -->
+    <circle cx="172" cy="90" r="8" fill="#FFFFFF"/>
+    <circle cx="174" cy="90" r="4" fill="#37414A"/>
+    <!-- Nose -->
+    <circle cx="194" cy="100" r="5" fill="#37414A"/>
+    <!-- Front paws -->
+    <ellipse cx="176" cy="206" rx="16" ry="10" fill="#C0613F"/>
+    <!-- Acorn -->
+    <g>
+      <ellipse cx="150" cy="170" rx="13" ry="15" fill="#7C5A3A"/>
+      <rect x="138" y="150" width="24" height="12" rx="4" fill="#9C8050"/>
+    </g>
+  </g>
+</svg>
