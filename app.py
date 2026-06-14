@@ -7,7 +7,7 @@
 #   - Matching-Vorschlaege (gemeinsame Vorlieben)
 #   - Aktivitaets-Posts mit Zielgruppenauswahl
 #   - "Ich bin dabei!" und Kommentare (nur fuer Teilnehmende)
-#   - Ruhemodus / Verfuegbarkeitsstatus
+#   - Ruhemodus / Verfuegbarkeitsstatus 
 #
 # Hinweis: Reines Mock-up. Der Zustand liegt in st.session_state
 # und wird je Session zurueckgesetzt (keine persistente Datenbank).
